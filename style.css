@@ -1,17 +1,10 @@
-.grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 200px);
-
-    grid-gap: 10px;
-}
-
-.grid > div{
-    background-color: red;
-}
-.grid01{
-    grid-column: 1 / 3;
-    
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
+@import "./style/base/style.css";
+.l-header {
+  background-image: url(../../img/imagem-codigos.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(106, 105, 105);
+  background-blend-mode: multiply;
+  color: white;
+  min-height: 450px;
+}/*# sourceMappingURL=style.css.map */
