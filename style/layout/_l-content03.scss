@@ -1,0 +1,17 @@
+$layout-name: 'l-content03';
+
+.#{$layout-name} {
+    background-color: white;
+    color: rgb(59, 55, 55);
+    min-height: 300px;
+    text-align: center;
+
+    &--title{
+        padding: 30px 10px 60px 10px;
+    }
+
+    &--text{
+        margin: auto;
+        width: 85%;
+    }
+}

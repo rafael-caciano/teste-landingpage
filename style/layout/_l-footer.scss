@@ -1,0 +1,16 @@
+$layout-name: 'l-footer';
+
+.#{$layout-name} {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: grid;
+    font-weight: bold;
+    justify-items: center;
+    min-height: 120px ;
+
+    &  span {
+        color: blue;
+    }
+
+}

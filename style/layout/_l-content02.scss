@@ -1,0 +1,68 @@
+$layout-name: 'l-content02';
+
+.#{$layout-name} {
+    background-color: rgb(89, 89, 89);
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+
+
+    &--title{
+        color: rgb(46, 43, 43);
+        font-weight: bolder;
+        padding: 30px 10px 40px 10px;
+        text-align: center;
+    }
+
+    &--text{
+        text-align: center;
+        font-weight: 600;
+        color: rgb(59, 55, 55);
+        width: 85%;
+
+        margin: auto;
+    }
+    
+
+    &--cx01{
+        background-color: white;
+        min-height: 500px;
+
+
+        &--img{
+            background-image: url(../../img/notebook-work.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 250px;
+        }
+    }
+
+    &--cx02{
+        background-color: white;
+        min-height: 500px;
+
+        &--img{
+            background-image:url(../../img/mobile.jpg) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 250px;
+        }
+        
+    }
+
+    &--cx03{
+        background-color: white;
+        min-height: 500px;
+
+        &--img{
+            background-image: url(../../img/notebook-grafico.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 250px;
+        }
+    }
+
+}

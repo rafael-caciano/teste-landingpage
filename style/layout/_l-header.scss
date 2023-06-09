@@ -1,11 +1,26 @@
 $layout-name: 'l-header';
 
 .#{$layout-name} {
+    align-items: center;
     background-image: url(../../img/imagem-codigos.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(106, 105, 105);
     background-blend-mode: multiply;
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
     min-height: 450px;
+    text-align: center;
+
+    &--title{
+        margin: 10px;
+    }
+
+    &--text{
+        margin: 10px;
+        text-align: center;
+    }
 }

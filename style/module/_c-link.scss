@@ -1,0 +1,22 @@
+$module-name: 'c-link';
+
+.#{$module-name} {
+    
+    
+    
+
+    &--button{
+        background-color: rgb(106, 104, 104);
+        border: .2px solid white;
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+        padding: 15px 30px;
+
+        &:hover{
+            color: black;
+            background-color: white;
+        }
+    }
+
+}

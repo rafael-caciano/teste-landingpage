@@ -1,0 +1,25 @@
+$layout-name: 'l-content01';
+
+.#{$layout-name} {
+    align-items: center;
+    background-color: rgb(231, 230, 230);
+    color: rgb(59, 55, 55);
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    
+
+    &--title{
+        color: rgb(46, 43, 43);
+        font-weight: bolder;
+        padding: 30px 10px 60px 10px;
+        text-align: center;
+        
+    }
+
+    &--text{
+        font-weight: 600;
+        text-align: center;
+        width: 80%;
+    }
+}

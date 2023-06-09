@@ -1,10 +1,159 @@
 @import "./style/base/style.css";
 .l-header {
+  align-items: center;
   background-image: url(../../img/imagem-codigos.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(106, 105, 105);
   background-blend-mode: multiply;
   color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
   min-height: 450px;
+  text-align: center;
+}
+.l-header--title {
+  margin: 10px;
+}
+.l-header--text {
+  margin: 10px;
+  text-align: center;
+}
+
+.l-content01 {
+  align-items: center;
+  background-color: rgb(231, 230, 230);
+  color: rgb(59, 55, 55);
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+}
+.l-content01--title {
+  color: rgb(46, 43, 43);
+  font-weight: bolder;
+  padding: 30px 10px 60px 10px;
+  text-align: center;
+}
+.l-content01--text {
+  font-weight: 600;
+  text-align: center;
+  width: 80%;
+}
+
+.l-content02 {
+  background-color: rgb(89, 89, 89);
+  display: grid;
+  gap: 20px;
+  padding: 10px;
+}
+.l-content02--title {
+  color: rgb(46, 43, 43);
+  font-weight: bolder;
+  padding: 30px 10px 40px 10px;
+  text-align: center;
+}
+.l-content02--text {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(59, 55, 55);
+  width: 85%;
+  margin: auto;
+}
+.l-content02--cx01 {
+  background-color: white;
+  min-height: 500px;
+}
+.l-content02--cx01--img {
+  background-image: url(../../img/notebook-work.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+}
+.l-content02--cx02 {
+  background-color: white;
+  min-height: 500px;
+}
+.l-content02--cx02--img {
+  background-image: url(../../img/mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+}
+.l-content02--cx03 {
+  background-color: white;
+  min-height: 500px;
+}
+.l-content02--cx03--img {
+  background-image: url(../../img/notebook-grafico.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+}
+
+.l-content03 {
+  background-color: white;
+  color: rgb(59, 55, 55);
+  min-height: 300px;
+  text-align: center;
+}
+.l-content03--title {
+  padding: 30px 10px 60px 10px;
+}
+.l-content03--text {
+  margin: auto;
+  width: 85%;
+}
+
+.l-content04 {
+  color: white;
+}
+.l-content04--title {
+  font-size: 1.8em;
+  padding: 30px 10px 60px 10px;
+  text-align: center;
+}
+.l-content04--text {
+  margin: auto;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 85%;
+}
+.l-content04--cx01 {
+  background-color: rgb(0, 174, 255);
+  min-height: 300px;
+}
+.l-content04--cx02 {
+  background-color: rgb(89, 89, 89);
+  min-height: 300px;
+}
+
+.l-footer {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: grid;
+  font-weight: bold;
+  justify-items: center;
+  min-height: 120px;
+}
+.l-footer span {
+  color: blue;
+}
+
+.c-link--button {
+  background-color: rgb(106, 104, 104);
+  border: 0.2px solid white;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 15px 30px;
+}
+.c-link--button:hover {
+  color: black;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
