@@ -2,6 +2,7 @@ $layout-name: 'l-content04';
 
 .#{$layout-name} {
     color: white;
+    display: grid;
 
     &--title{
         font-size: 1.8em;
@@ -27,5 +28,9 @@ $layout-name: 'l-content04';
     &--cx02{
         background-color: rgb(89, 89, 89);
         min-height: 300px;
+    }
+
+    @media (min-width: 768px){
+        grid-template-columns: repeat(2, 1fr);
     }
 }

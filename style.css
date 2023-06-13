@@ -26,27 +26,40 @@
   align-items: center;
   background-color: rgb(231, 230, 230);
   color: rgb(59, 55, 55);
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 100px minmax(200px);
   min-height: 300px;
 }
 .l-content01--title {
   color: rgb(46, 43, 43);
   font-weight: bolder;
-  padding: 30px 10px 60px 10px;
+  padding: 30px 10px 0px 10px;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .l-content01--title {
+    grid-column: 1/span 3;
+  }
 }
 .l-content01--text {
   font-weight: 600;
+  display: grid;
   text-align: center;
   width: 80%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .l-content01 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .l-content02 {
   background-color: rgb(89, 89, 89);
   display: grid;
-  gap: 20px;
-  padding: 10px;
+  gap: 10px;
+  padding: 15px;
 }
 .l-content02--title {
   color: rgb(46, 43, 43);
@@ -94,6 +107,13 @@
   background-position: center center;
   height: 250px;
 }
+@media screen and (min-width: 768px) {
+  .l-content02 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+}
 
 .l-content03 {
   background-color: white;
@@ -111,6 +131,7 @@
 
 .l-content04 {
   color: white;
+  display: grid;
 }
 .l-content04--title {
   font-size: 1.8em;
@@ -131,14 +152,20 @@
   background-color: rgb(89, 89, 89);
   min-height: 300px;
 }
+@media (min-width: 768px) {
+  .l-content04 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 .l-footer {
   align-items: center;
   background-color: black;
   color: white;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   font-weight: bold;
-  justify-items: center;
+  justify-content: center;
   min-height: 120px;
 }
 .l-footer span {

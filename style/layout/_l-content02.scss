@@ -3,8 +3,8 @@ $layout-name: 'l-content02';
 .#{$layout-name} {
     background-color: rgb(89, 89, 89);
     display: grid;
-    gap: 20px;
-    padding: 10px;
+    gap: 10px;
+    padding: 15px;
 
 
     &--title{
@@ -64,5 +64,11 @@ $layout-name: 'l-content02';
             height: 250px;
         }
     }
-
+        @media screen and (min-width: 768px){
+                &{
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 10px;
+                    padding: 10px;
+                }            
+        }
 }
